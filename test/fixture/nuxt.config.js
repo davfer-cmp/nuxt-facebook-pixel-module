@@ -8,9 +8,11 @@ module.exports = {
     resourceHints: false
   },
   modules: [
-    ['@@', {
+    ['@@', [{
       pixelId: 'PIXEL_CODE'
-    }]
+    }, {
+      pixelId: 'PIXEL_CODE2'
+    }]]
   ],
   babel: {
     presets: [
